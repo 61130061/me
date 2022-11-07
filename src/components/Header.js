@@ -1,4 +1,4 @@
-import { GitHub, Light } from './Icon';
+import { GitHub, Light, LinkedIn } from './Icon';
 
 function Header() {
   return (
@@ -9,6 +9,9 @@ function Header() {
         </div>
         <div className="p-2 bg-black text-white">
           <GitHub />
+        </div>
+        <div className="py-2 px-3 bg-black text-white">
+          <LinkedIn />
         </div>
         <div className="p-2 bg-black text-white">h.warunyu@gmail.com</div>
       </div>
