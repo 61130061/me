@@ -2,7 +2,7 @@ function Skills () {
   return (
     <div className="my-12">
       <div className="text-4xl my-4 font-[400]">Skills</div>
-      <div className="grid grid-cols-3">
+      <div className="grid md:grid-cols-3 grid-cols-2 gap-5">
         <div>
           <div className="font-[500] text-xl my-2">Programming</div>
           <ul className="list-disc list-inside px-1">

@@ -34,21 +34,21 @@ function Header() {
 
   return (
     <div>
-      <div className="flex gap-3 flex-row-reverse text-sm">
-        <div className="p-2 bg-black text-white">
+      <div className="flex gap-3 flex-wrap flex-row-reverse text-sm">
+        <div className="p-2 bg-black text-white hover:shadow-lg hover:cursor-pointer">
           <Light />
         </div>
-        <div className="p-2 bg-black text-white">
+        <div className="p-2 bg-black text-white hover:shadow-lg hover:cursor-pointer">
           <GitHub />
         </div>
-        <div className="py-2 px-3 bg-black text-white">
+        <div className="py-2 px-3 bg-black text-white hover:shadow-lg hover:cursor-pointer">
           <LinkedIn />
         </div>
-        <div className="p-2 bg-black text-white">h.warunyu@gmail.com</div>
+        <div className="p-2 bg-black text-white hover:shadow-lg hover:cursor-pointer">h.warunyu@gmail.com</div>
       </div>
       <div className="text-5xl mb-5 mt-8 font-[600]">Warunyu Hematulin</div>
       <div>Make impossible things possible with code</div>
-      <div className="text-4xl my-3 font-[400] flex">
+      <div className="sm:text-4xl my-3 sm:font-[400] flex text-2xl font-[500]">
         <div className="mr-3">👨‍💻</div>
         <div>{typing}</div>
         <div className="type-cursor">|</div>
