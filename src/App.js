@@ -3,6 +3,7 @@ import Projects from './components/Projects';
 import Contributions from './components/Contributions';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import HireMe from './components/HireMe';
 
 function App() {
   return (
@@ -13,9 +14,7 @@ function App() {
         <Contributions />
         <Projects />
 
-        <div className="my-12">
-          <div className="text-4xl my-4 font-[400] text-center">Hire me 👋!</div>
-        </div>
+        <HireMe />
 
         <Footer />
 
