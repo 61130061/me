@@ -10,3 +10,15 @@ body {
   background-color: #fff;
   color: #000;
 }
+
+.type-cursor {
+  animation: blink .7s steps(1, start) infinite;
+}
+
+@keyframes blink {
+  from, to { color: #000 }
+  50% {
+    color: transparent;
+  }
+}
+

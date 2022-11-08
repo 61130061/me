@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Projects from './components/Projects';
+import Contributions from './components/Contributions';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 
@@ -9,6 +10,7 @@ function App() {
       <div className="m-auto max-w-[720px] mt-5">
         <Header />
         <Skills />
+        <Contributions />
         <Projects />
 
         <div className="my-12">

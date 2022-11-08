@@ -46,7 +46,7 @@ export function Light () {
 
 export function Star () {
   return (
-    <svg className="fill-black" width="18px" height="18px" viewBox="0 0 217.929 217.929" xmlns="http://www.w3.org/2000/svg">
+    <svg className="fill-black" width="15px" height="15px" viewBox="0 0 217.929 217.929" xmlns="http://www.w3.org/2000/svg">
       <g>
         <path d="M212.39,101.703c5.023-4.897,6.797-12.083,4.629-18.755s-7.827-11.443-14.769-12.452l-52.969-7.697
 		c-0.097-0.014-0.18-0.075-0.223-0.162L125.371,14.64C122.267,8.349,115.98,4.44,108.964,4.44S95.662,8.349,92.558,14.64
