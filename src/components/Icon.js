@@ -1,12 +1,12 @@
 export function GitHub () {
   return (
-    <svg className="fill-white" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2"><rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" /><path d="M12 1A10.89 10.89 0 0 0 1 11.77 10.79 10.79 0 0 0 8.52 22c.55.1.75-.23.75-.52v-1.83c-3.06.65-3.71-1.44-3.71-1.44a2.86 2.86 0 0 0-1.22-1.58c-1-.66.08-.65.08-.65a2.31 2.31 0 0 1 1.68 1.11 2.37 2.37 0 0 0 3.2.89 2.33 2.33 0 0 1 .7-1.44c-2.44-.27-5-1.19-5-5.32a4.15 4.15 0 0 1 1.11-2.91 3.78 3.78 0 0 1 .11-2.84s.93-.29 3 1.1a10.68 10.68 0 0 1 5.5 0c2.1-1.39 3-1.1 3-1.1a3.78 3.78 0 0 1 .11 2.84A4.15 4.15 0 0 1 19 11.2c0 4.14-2.58 5.05-5 5.32a2.5 2.5 0 0 1 .75 2v2.95c0 .35.2.63.75.52A10.8 10.8 0 0 0 23 11.77 10.89 10.89 0 0 0 12 1" data-name="github" /></g></svg>
+    <svg className="fill-white dark:fill-black" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2"><rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" /><path d="M12 1A10.89 10.89 0 0 0 1 11.77 10.79 10.79 0 0 0 8.52 22c.55.1.75-.23.75-.52v-1.83c-3.06.65-3.71-1.44-3.71-1.44a2.86 2.86 0 0 0-1.22-1.58c-1-.66.08-.65.08-.65a2.31 2.31 0 0 1 1.68 1.11 2.37 2.37 0 0 0 3.2.89 2.33 2.33 0 0 1 .7-1.44c-2.44-.27-5-1.19-5-5.32a4.15 4.15 0 0 1 1.11-2.91 3.78 3.78 0 0 1 .11-2.84s.93-.29 3 1.1a10.68 10.68 0 0 1 5.5 0c2.1-1.39 3-1.1 3-1.1a3.78 3.78 0 0 1 .11 2.84A4.15 4.15 0 0 1 19 11.2c0 4.14-2.58 5.05-5 5.32a2.5 2.5 0 0 1 .75 2v2.95c0 .35.2.63.75.52A10.8 10.8 0 0 0 23 11.77 10.89 10.89 0 0 0 12 1" data-name="github" /></g></svg>
   )
 }
 
 export function Light () {
   return (
-    <svg className="fill-white" width="24px" height="24px" viewBox="0 0 47 47" xmlns="http://www.w3.org/2000/svg">
+    <svg className="fill-white dark:fill-black" width="24px" height="24px" viewBox="0 0 47 47" xmlns="http://www.w3.org/2000/svg">
       <g>
         <g>
           <path d="M23.5,11.449c-6.385,0-11.563,4.959-11.563,11.077c0,7.265,5.045,9.117,5.045,13.344c0,1.045,0.799,2.017,1.999,2.731
@@ -46,7 +46,7 @@ export function Light () {
 
 export function Star () {
   return (
-    <svg className="fill-black" width="15px" height="15px" viewBox="0 0 217.929 217.929" xmlns="http://www.w3.org/2000/svg">
+    <svg className="fill-black dark:fill-white" width="15px" height="15px" viewBox="0 0 217.929 217.929" xmlns="http://www.w3.org/2000/svg">
       <g>
         <path d="M212.39,101.703c5.023-4.897,6.797-12.083,4.629-18.755s-7.827-11.443-14.769-12.452l-52.969-7.697
 		c-0.097-0.014-0.18-0.075-0.223-0.162L125.371,14.64C122.267,8.349,115.98,4.44,108.964,4.44S95.662,8.349,92.558,14.64
@@ -69,7 +69,7 @@ export function Star () {
 
 export function LinkedIn() {
 	return (
-		<svg className="fill-white" width="20px" height="20px" viewBox="0 0 310 310" xmlns="http://www.w3.org/2000/svg">
+		<svg className="fill-white dark:fill-black" width="20px" height="20px" viewBox="0 0 310 310" xmlns="http://www.w3.org/2000/svg">
 			<g id="XMLID_801_">
 				<path id="XMLID_802_" d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73
 		C77.16,101.969,74.922,99.73,72.16,99.73z"/>

@@ -7,7 +7,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function Header() {
+function Header({ dark, setDark }) {
   const [typing, setTyping] = useState('');
 
   useEffect(() => {
@@ -35,16 +35,16 @@ function Header() {
   return (
     <div>
       <div className="flex gap-3 flex-wrap flex-row-reverse text-sm">
-        <div className="p-2 bg-black text-white hover:shadow-lg hover:cursor-pointer">
+        <div onClick={() => setDark(!dark)} className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <Light />
         </div>
-        <div className="p-2 bg-black text-white hover:shadow-lg hover:cursor-pointer">
+        <div className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <GitHub />
         </div>
-        <div className="py-2 px-3 bg-black text-white hover:shadow-lg hover:cursor-pointer">
+        <div className="py-2 px-3 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <LinkedIn />
         </div>
-        <div className="p-2 bg-black text-white hover:shadow-lg hover:cursor-pointer">h.warunyu@gmail.com</div>
+        <div className="p-2 bg-black dark:bg-white dark:text-black text-white hover:shadow-lg hover:cursor-pointer">h.warunyu@gmail.com</div>
       </div>
       <div className="text-5xl mb-5 mt-8 font-[600]">Warunyu Hematulin</div>
       <div>Make impossible things possible with code</div>

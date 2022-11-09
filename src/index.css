@@ -16,7 +16,6 @@ body {
 }
 
 @keyframes blink {
-  from, to { color: #000 }
   50% {
     color: transparent;
   }
