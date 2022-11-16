@@ -65,7 +65,7 @@ function Contributions () {
         {gData.map((d, i) => 
         <div key={i} className="flex flex-col flex-1 justify-between p-3 rounded-lg border">
           <div>
-            <div className="text-lg font-[500] mb-1 hover:underline hover:cursor-pointer">{d.name}</div>
+            <a href={d.link} target="_blank" className="text-lg font-[500] mb-1 hover:underline hover:cursor-pointer">{d.name}</a>
             <ul className="list-disc pl-6">
               {d.desc.map((dc, ic) => 
               <li key={ic}>{dc}</li>
