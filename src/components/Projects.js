@@ -75,7 +75,7 @@ function Projects () {
                 </div>
                 <div className="flex gap-2 items-center">
                   <Star />
-                  <div>{d.stars}</div>
+                  <div className="pt-1">{d.stars}</div>
                 </div>
               </div>
             </div>
