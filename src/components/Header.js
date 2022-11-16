@@ -38,13 +38,13 @@ function Header({ dark, setDark }) {
         <div onClick={() => setDark(!dark)} className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <Light />
         </div>
-        <div className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
+        <a href="https://github.com/61130061" target="_blank" className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <GitHub />
-        </div>
-        <div className="py-2 px-3 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
+        </a>
+        <a href="https://linkedin.com/in/h-warunyu" target="_blank" className="py-2 px-3 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <LinkedIn />
-        </div>
-        <div className="p-2 bg-black dark:bg-white dark:text-black text-white hover:shadow-lg hover:cursor-pointer">h.warunyu@gmail.com</div>
+        </a>
+        <a href="mailto: h.warunyu@gmail.com" className="p-2 bg-black dark:bg-white dark:text-black text-white hover:shadow-lg hover:cursor-pointer">h.warunyu@gmail.com</a>
       </div>
       <div className="text-5xl mb-5 mt-8 font-[600]">Warunyu Hematulin</div>
       <div>Make impossible things possible with code</div>
