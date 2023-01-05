@@ -12,6 +12,10 @@ const link = [
   },
   {
     owner: "61130061",
+    repo: "Tailbook"
+  },
+  {
+    owner: "61130061",
     repo: "react-emoji-selectors"
   },
   {
@@ -65,7 +69,7 @@ function Projects () {
           <div key={i} className="flex flex-col flex-1 justify-between p-3 rounded-lg border">
             <div>
               <a href={d.link} target="_blank" className="text-lg font-[500] mb-1 hover:underline hover:cursor-pointer">{d.name}</a>
-              <div>{d.desc}</div>
+              <div className="text-sm">{d.desc}</div>
             </div>
             <div className="flex justify-between mt-3 text-sm">
               <div className="flex items-center gap-5">
