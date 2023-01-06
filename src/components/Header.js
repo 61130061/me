@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { GitHub, Light, LinkedIn } from './Icon';
+import { GitHub, Moon, LinkedIn } from './Icon';
 
 const texts = ['Software Engineer', 'Frontend Developer', 'Web Developer'];
 
@@ -36,7 +36,7 @@ function Header({ dark, setDark }) {
     <div>
       <div className="flex gap-3 flex-wrap flex-row-reverse text-sm">
         <div onClick={() => setDark(!dark)} className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
-          <Light />
+          <Moon />
         </div>
         <a href="https://github.com/61130061" target="_blank" className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer">
           <GitHub />
