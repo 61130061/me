@@ -63,7 +63,7 @@ function Contributions () {
       <div className="text-4xl my-4 font-[400]">Contributions</div>
       <div className="grid sm:grid-cols-2 gap-5">
         {gData.map((d, i) => 
-        <div key={i} className="flex flex-col flex-1 justify-between p-3 rounded-lg border">
+        <div key={i} className="flex flex-col flex-1 justify-between p-3 rounded-lg border dark:border-gray-600 dark:hover:border-gray-400 hover:border-gray-400">
           <div>
             <a href={d.link} target="_blank" className="text-lg font-[500] mb-1 hover:underline hover:cursor-pointer">{d.name}</a>
             <ul className="list-disc text-sm pl-6">
