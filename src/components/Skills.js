@@ -10,6 +10,7 @@ function Skills () {
             <li>HTML</li>
             <li>CSS</li>
             <li>Python</li>
+            <li>SQL</li>
             <li>Swift</li>
           </ul>
         </div>
@@ -28,7 +29,7 @@ function Skills () {
             <li>Rest API</li>
             <li>Next JS</li>
             <li>Prisma</li>
-            <li>SQL</li>
+            <li>Mongodb</li>
           </ul>
         </div>
       </div>
