@@ -6,6 +6,7 @@ import Contributions from './components/Contributions';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import HireMe from './components/HireMe';
+import Showcase from './components/Showcase';
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <div className="m-auto max-w-[720px] mt-5">
         <Header setDark={setDark} dark={dark} />
         <Skills />
+        <Showcase />
         <Contributions />
         <Projects />
 
