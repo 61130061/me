@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.eb591a3b.css",
-    "main.js": "/me/static/js/main.ffab19f2.js",
+    "main.css": "/me/static/css/main.b03ca457.css",
+    "main.js": "/me/static/js/main.5156eee5.js",
+    "static/media/ascom-showcase.gif": "/me/static/media/ascom-showcase.46f9ac9c1877c8185b9b.gif",
+    "static/media/3stap-showcase.gif": "/me/static/media/3stap-showcase.8071d4a55db1a9db9e5a.gif",
+    "static/media/html-crack-showcase.gif": "/me/static/media/html-crack-showcase.bbaf0e7f6d4e9cd48469.gif",
+    "static/media/terminal-showcase.gif": "/me/static/media/terminal-showcase.6b7ebb12ad47b717f201.gif",
     "index.html": "/me/index.html",
-    "main.eb591a3b.css.map": "/me/static/css/main.eb591a3b.css.map",
-    "main.ffab19f2.js.map": "/me/static/js/main.ffab19f2.js.map"
+    "main.b03ca457.css.map": "/me/static/css/main.b03ca457.css.map",
+    "main.5156eee5.js.map": "/me/static/js/main.5156eee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb591a3b.css",
-    "static/js/main.ffab19f2.js"
+    "static/css/main.b03ca457.css",
+    "static/js/main.5156eee5.js"
   ]
 }
