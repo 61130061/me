@@ -6,15 +6,11 @@ import { sleep } from "~/utiles";
 import { Moon, LinkedIn, GitHub } from "~/components/icon";
 import { useTheme } from "next-themes";
 
-const texts = [
-  "Software Engineer",
-  "Frontend Developer",
-  "Backend Developer",
-  "Fullstack Developer",
-  "Web Developer",
-];
+type HeaderProps = {
+  texts: string[];
+};
 
-export const Header = () => {
+export const Header: React.FC<HeaderProps> = ({ texts }) => {
   const [typing, setTyping] = useState("");
   const { theme, setTheme } = useTheme();
 
