@@ -62,7 +62,7 @@ export const Projects: React.FC<ProjectsProps> = (props) => {
         {data.map((d, i) => (
           <div
             key={i}
-            className="flex flex-col flex-1 justify-between p-3 rounded-lg border dark:border-gray-600 dark:hover:border-gray-400 hover:border-gray-400"
+            className="flex flex-col flex-1 justify-between p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:hover:border-gray-400 hover:border-gray-400"
           >
             <div>
               <a
