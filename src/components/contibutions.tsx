@@ -106,7 +106,7 @@ export const Contributions: React.FC<ContributionsProps> = (props) => {
 
 const Skeleton = () => {
   return (
-    <div className="animate-pulse flex flex-col flex-1 justify-between p-3 rounded-lg border">
+    <div className="animate-pulse flex flex-col flex-1 justify-between p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:hover:border-gray-400 hover:border-gray-400">
       <div>
         <div className="h-[20px] w-[30%] bg-slate-200 rounded-full mb-4 hover:underline hover:cursor-pointer" />
         <div className="h-[18px] w-[80%] bg-slate-200 rounded-full ml-6 my-3" />

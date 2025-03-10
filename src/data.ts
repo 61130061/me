@@ -108,3 +108,31 @@ export const projects = [
     repo: "dora",
   },
 ];
+
+export const timeline = [
+  {
+    date: "May 2023 - Present",
+    title: "Software Engineer",
+    company: "Toyota Tsusho Mobility Informatics (Thailand) Co., Ltd.",
+    list: [
+      "Developed an Interactive Platform using micro-services for scalable with gRPC and Kafka.",
+      "Full-stack development with Typescript, Go and Python on the backend and React on the frontend, delivering seamless user experiences.",
+      "Designed a Python starter micro-service template to standardize and accelerate service development.",
+      "Migrated a Proof of Delivery mobile app from Ionic to Flutter, enhancing UI/UX and performance, and deployed to App Store and Play Store.",
+      "Built a fleet management web application using React, Express, AWS Lambda, and DynamoDB, with real-time GPS data.",
+      "Refactored applications by migrating MySQL database versions to reduce costs and implemented CI/CD pipelines with tests for AWS Lambda functions.",
+      "Developed a customer and supplier registration web app within the Odoo framework, integrating with existing ERP systems.",
+    ],
+  },
+  {
+    date: "Jan 2022 - Dec 2023",
+    title: "Software Engineer",
+    company: "ASCOM Lab [freelance]",
+    list: [
+      "Developed and trained a vision-based AI Pose Estimation model for spacecraft using Tensorflow, CNN, and ResNet.",
+      "Utilized Unreal Engine to generate synthetic datasets, overcoming data scarcity challenges.",
+      "Created a prototype AI spacecraft pose estimation web app using NextJS, Python Lambda on Vercel, and Supabase.",
+      "Built a 3D globe satellite monitoring web app with React, integrating open-source satellite data APIs.",
+    ],
+  },
+];

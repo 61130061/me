@@ -11,13 +11,15 @@ type ProjectsProps = {
 };
 
 export const Projects: React.FC<ProjectsProps> = (props) => {
-  const [data, setData] = useState<{
-    name: string;
-    lang: string;
-    stars: number;
-    desc: string;
-    link: string;
-  }[]>();
+  const [data, setData] = useState<
+    {
+      name: string;
+      lang: string;
+      stars: number;
+      desc: string;
+      link: string;
+    }[]
+  >();
 
   useEffect(() => {
     const load = async () => {
@@ -95,7 +97,7 @@ export const Projects: React.FC<ProjectsProps> = (props) => {
 
 const Skeleton = () => {
   return (
-    <div className="animate-pulse flex flex-col flex-1 justify-between p-3 rounded-lg border">
+    <div className="animate-pulse flex flex-col flex-1 justify-between p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:hover:border-gray-400 hover:border-gray-400">
       <div>
         <div className="h-[20px] w-[40%] rounded-full bg-slate-200 mb-3 hover:underline hover:cursor-pointer" />
         <div className="w-full h-[20px] mb-3 rounded-full bg-slate-200"></div>
