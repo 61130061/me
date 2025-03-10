@@ -1,13 +1,14 @@
 {
   "name": "me",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "homepage": "https://61130061.github.io/me",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "gh-pages -d dist",
-    "serve": "serve dist",
+    "pages": "pnpm dlx gh-pages -d dist --nojekyll",
+    "serve": "pnpm dlx serve dist",
     "lint": "next lint"
   },
   "dependencies": {
@@ -24,6 +25,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
