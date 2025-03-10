@@ -27,7 +27,7 @@ jobs:
           NEXT_PUBLIC_PAGES_BASE_PATH: "/me"
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: build-artifacts
           path: ./dist
