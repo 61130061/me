@@ -1,25 +1,29 @@
-import { useEffect, useState } from 'react';
-import { GitHub, Moon, LinkedIn } from './Icon';
+"use client";
 
-const texts = ['Software Engineer', 'Frontend Developer', 'Web Developer'];
+import { useEffect, useState } from "react";
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+import { sleep } from "~/utiles";
+import { Moon, LinkedIn, GitHub } from "~/components/icon";
+import { useTheme } from "next-themes";
 
-function Header({ dark, setDark }) {
-  const [typing, setTyping] = useState('');
+type HeaderProps = {
+  texts: string[];
+};
+
+export const Header: React.FC<HeaderProps> = ({ texts }) => {
+  const [typing, setTyping] = useState("");
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     const typewriter = async () => {
       for (let x = 0; x < texts.length; x++) {
-        const tArr = texts[x].split('');
+        const tArr = texts[x].split("");
         for (let i = 0; i < tArr.length; i++) {
-          setTyping(texts[x].slice(0, i+1));
+          setTyping(texts[x].slice(0, i + 1));
           await sleep(40);
         }
         await sleep(3000);
-        if (x < texts.length-1) {
+        if (x < texts.length - 1) {
           for (let i = tArr.length; i >= 0; i--) {
             setTyping(texts[x].slice(0, i));
             await sleep(40);
@@ -27,16 +31,16 @@ function Header({ dark, setDark }) {
           await sleep(1000);
         }
       }
-    }
+    };
 
     typewriter();
-  }, []);
+  }, [texts]);
 
   return (
     <div>
       <div className="flex gap-3 flex-wrap flex-row-reverse text-sm">
         <div
-          onClick={() => setDark(!dark)}
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className="p-2 bg-black dark:bg-white hover:shadow-lg hover:cursor-pointer"
         >
           <Moon />
@@ -78,6 +82,4 @@ function Header({ dark, setDark }) {
       </div>
     </div>
   );
-}
-
-export default Header;
+};
