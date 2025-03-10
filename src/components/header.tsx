@@ -34,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({ texts }) => {
     };
 
     typewriter();
-  }, []);
+  }, [texts]);
 
   return (
     <div>

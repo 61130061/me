@@ -40,7 +40,7 @@ export const Projects: React.FC<ProjectsProps> = (props) => {
     };
 
     if (!data) load();
-  }, []);
+  }, [data, props.data]);
 
   if (!data) {
     return (

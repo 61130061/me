@@ -47,7 +47,7 @@ export const Contributions: React.FC<ContributionsProps> = (props) => {
     };
 
     if (!data) load();
-  }, []);
+  }, [data, props.data]);
 
   if (!data) {
     return (
