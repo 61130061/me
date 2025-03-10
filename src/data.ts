@@ -1,3 +1,5 @@
+"use client";
+
 export const texts = [
   "Software Engineer",
   "Frontend Developer",
@@ -19,28 +21,28 @@ export const showcases = [
     title: "ASCOM Laboratory",
     description:
       "Develop prototype versions of laboratory website for university using ThreeJS, React, and Docusaurus.",
-    image: process.env.PAGES_BASE_PATH + "/ascom-showcase.gif",
+    image: process.env.NEXT_PUBLIC_PAGES_BASE_PATH + "/ascom-showcase.gif",
   },
   {
     link: "https://61130061.github.io/3stap/",
     title: "3STAP",
     description:
       "Realtime 3d Satellite's Trajectory and Position Tracking web application built by ReactJS and ThreeJS",
-    image: process.env.PAGES_BASE_PATH + "/3stap-showcase.gif",
+    image: process.env.NEXT_PUBLIC_PAGES_BASE_PATH + "/3stap-showcase.gif",
   },
   {
     link: "https://61130061.github.io/llam4u-terminal/",
     title: "Terminal Portfolio",
     description:
       "Realistic terminal React portfolio website with standard shell command onboard.",
-    image: process.env.PAGES_BASE_PATH + "/terminal-showcase.gif",
+    image: process.env.NEXT_PUBLIC_PAGES_BASE_PATH + "/terminal-showcase.gif",
   },
   {
     link: "https://61130061.github.io/HTMLCrack/",
     title: "HTML Crack",
     description:
       "React web app that can help your visualize HTML code as tree chart.",
-    image: process.env.PAGES_BASE_PATH + "/html-crack-showcase.gif",
+    image: process.env.NEXT_PUBLIC_PAGES_BASE_PATH + "/html-crack-showcase.gif",
   },
 ];
 

@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: process.env.PAGES_BASE_PATH,
-  basePath: process.env.PAGES_BASE_PATH,
+  assetPrefix: process.env.NEXT_PUBLIC_PAGES_BASE_PATH,
+  basePath: process.env.NEXT_PUBLIC_PAGES_BASE_PATH,
   /* config options here */
 };
 
