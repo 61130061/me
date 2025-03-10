@@ -74,11 +74,13 @@ export const Header: React.FC<HeaderProps> = ({ texts }) => {
         <div className="type-cursor">|</div>
       </div>
       <div>
-        Software engineer with rapid career growth, excelling in scalable
-        micro-services (gRPC, Kafka) and full-stack development (Go, Python,
-        React, Flutter). Potential for leading high-impact projects, delivering
-        optimized, cost- effective solutions. Passionate about AI, cloud, and
-        open-source innovation.
+        Software engineer with rapid career growth, excelling in developing
+        full-stack web application{" "}
+        <span className="font-semibold">(Python, React, Flutter)</span> and have
+        experience in scalable micro-services{" "}
+        <span className="font-semibold">(Go, gRPC, Kafka)</span>. Potential for
+        leading high-impact projects and deliver high quality product.
+        Passionate about AI, cloud, and open-source innovation.
       </div>
     </div>
   );

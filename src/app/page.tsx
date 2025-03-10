@@ -7,7 +7,16 @@ import { Header } from "~/components/header";
 import { HireMeButton } from "~/components/hire-me-button";
 import { Projects } from "~/components/projects";
 import { Showcase } from "~/components/showcase";
-import { contributions, footer, projects, showcases, skills, texts } from "~/data";
+import { Timeline } from "~/components/timeline";
+import {
+  contributions,
+  footer,
+  projects,
+  showcases,
+  skills,
+  texts,
+  timeline,
+} from "~/data";
 
 export default function Home() {
   return (
@@ -30,6 +39,8 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <Timeline data={timeline} />
 
         <Showcase show={2} data={showcases} />
 
